@@ -1,0 +1,5 @@
+{
+    "list_num": [ 10, 12, 15 , 23 ],
+    "tuple_num": [ 15, 12, 50 ],
+	"str_num": "welcome"
+}
