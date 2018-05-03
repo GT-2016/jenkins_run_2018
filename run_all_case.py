@@ -13,7 +13,7 @@ files_02 = unittest.defaultTestLoader.discover('D:\\Users\\liaga\\workspace\\uni
 start_time = time.strftime("%Y_%m_%d_%H_%M_%S")
 print(start_time)
 
-report_path = ".\\report"+"\\report%s.html"%start_time
+report_path = ".\\report"+"\\report.html"%start_time
 fp = file(report_path, "wb")
 desc = '1. test_01测试能否打开url及正确输入；'+'\n'+'2. test_02测试能否登录成功'+'\n'+'3. test_03测试错误登录'
 
