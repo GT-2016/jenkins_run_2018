@@ -4,7 +4,7 @@ import time
 from common.HTMLTestRunner_yo import HTMLTestRunner
 
 files_01 = unittest.defaultTestLoader.discover('D:\\Users\\liaga\\workspace\\unit01\\src\\case', 'test_login*.py')
-# 先打印出来，看有没加载123
+# 先打印出来，看有没加载1231
 # print(type(files_01))
 files_02 = unittest.defaultTestLoader.discover('D:\\Users\\liaga\\workspace\\unit01\\src\\case', 'test_login*.py')
 # all = unittest.TestSuite()
